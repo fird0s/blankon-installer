@@ -84,7 +84,7 @@ li.sexybutton {
 .OneBorder {
 	width: 100%;
 	background: #F3F3F3; 
-	height: 127px;	
+	height: 150px;	
 	border: 2px solid black;
 	border-radius: 10px;
 	padding:  10px;
@@ -92,22 +92,23 @@ li.sexybutton {
 
 .TwoBorder {
 	background: white;
-	width: 100%;
 	border: 2px solid black;
 	border-radius: 10px;
+	height: 75px;
 }
 
 button.ContenBorder {
 	border: 2px solid black;
 	border-radius: 10px;
-	width: 40%;	
 	background: #E06666;
 	margin: 3px;
 	padding: 10px;
 	font-weight: bold;
 	color: white;
 	font-size: 17px;
-
+	width: 400px;
+	text-align: center;
+	z-index: 1;
 }
 
 button.ContenBorder:hover {
@@ -149,3 +150,58 @@ li.add:hover {
   margin-top: -50px;
   margin-left: -130px;
 }	
+
+button.partition_choice {
+	background: #E69138; 
+	height:  67px;
+	width: 310px;
+	border: 3px solid black;
+	margin-top: 1px;
+	position: absolute;
+	}
+
+input.partition_choice {
+	background: #E69138; 
+	height:  40px;
+	border: 2px solid black;
+	position: absolute;
+	}
+
+input.ContenBorder {
+	border: 2px solid black;
+	border-radius: 10px;
+	background: #E69138;
+	margin: 2px;
+	padding: 10px;
+	font-weight: bold;
+	color: white;
+	font-size: 17px;
+	text-align: center;
+}
+
+
+button.partition_kosong {
+	width: 370px;
+	height:  65px;
+	background: white;
+	margin-left: -320px;
+	color: black;
+	margin-left: 20px;
+	border: 3px dotted black;
+}
+
+.kiri {
+	float: left;
+}
+
+.kanan {
+	margin: 2px;	
+	float: left;
+	width: 697px;
+	background: #CCCCCC ;
+	border: 0px solid #CCCCCC ;
+	border-radius: 10px;
+	height: 67px;
+	padding: 2px;
+
+}
