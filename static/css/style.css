@@ -213,3 +213,43 @@ button.partition_all {
 	padding: 2px;
 
 }
+
+/* Label Typo */
+label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 20px;
+	font-size: 25px;
+}
+
+input[type=checkbox] {
+	display: none;
+}
+label:before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	left: 0;
+	bottom: 1px;
+	background-color: #aaa;
+	box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
+
+.checkbox label {
+	margin-bottom: 10px;
+}
+.checkbox label:before {
+    border-radius: 1px;
+}
+
+
+input[type=checkbox]:checked + label:before {
+	content: "\2713";
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+	color: #f3f3f3;
+	text-align: center;
+    line-height: 15px;
+}
