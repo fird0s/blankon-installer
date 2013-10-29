@@ -7,6 +7,7 @@
 
 body {
 	background: #D3D3D3;
+	font-family: philosopher;
 }
 
 header {
@@ -60,6 +61,11 @@ li.sexybutton:hover {
 	border-bottom: 4px solid #B8B8B8;
 }
 
+li.sexybutton:active {background: black; color: white;
+
+	
+}
+
 li.sexybutton {
 	color: black;
 	border: 1px solid white;
@@ -73,6 +79,12 @@ li.sexybutton {
 	margin: 10px;
 	float: right;
 	font-size: 18px;
+
+	-webkit-transition: all 0.2s linear 0s;
+	-moz-transition: all 0.2s linear 0s;
+	-ms-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+	transition: all 0.2s linear 0s;	
 }
 
 .triangle {
@@ -252,4 +264,9 @@ input[type=checkbox]:checked + label:before {
 	color: #f3f3f3;
 	text-align: center;
     line-height: 15px;
-}
+
+
+
+button:hover { background-color: lime; }
+button:active { background-color: blue; }
+button:focus { background-color: yellow; }
