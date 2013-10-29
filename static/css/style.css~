@@ -56,16 +56,6 @@ p {font-weight: bold;}
 	margin-right: 150px;	
 }
 
-ul li a {
-	text-decoration: none;
-	color: black;
-	
-	}
-
-a:active {
-	color: white;
-}
-
 li.sexybutton:hover {
 	border: 1px solid #B8B8B8;
 	border-bottom: 4px solid #B8B8B8;
@@ -165,10 +155,10 @@ li.add:hover {
 
 li.add:active{
 	-webkit-transition: all 0.1s linear 0s;
-	-moz-transition: all 0.1s linear 0s;
-	-ms-transition: all 0.1s linear 0s;
-	-o-transition: all 0.1s linear 0s;
-	transition: all 0.1s linear 0s;	
+	-moz-transition: all 0.2s linear 0s;
+	-ms-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+	transition: all 0.2s linear 0s;	
 	border: 3px solid white;
 }
 
@@ -191,15 +181,15 @@ li.add:active{
 
 button.partition_choice {
 	background: #E69138; 
-	height:  65px;
+	height:  67px;
 	width: 310px;
 	border: 3px solid black;
 	position: absolute;
-	margin-top: -1,5px;
+	
 	}
 
 button.partition_kosong {
-	height:  65px;
+	height:  64px;
 	background: white;
 	border: 3px dotted black;
 }
