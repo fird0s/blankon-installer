@@ -182,14 +182,20 @@ input.ContenBorder {
 }
 
 
-button.partition_kosong {
-	width: 370px;
-	height:  65px;
-	background: white;
-	margin-left: -320px;
-	color: black;
-	margin-left: 20px;
-	border: 3px dotted black;
+button.partition_all {
+	border: 2px solid black;
+	border-radius: 10px;
+	background: #E69138;
+	margin: 2px;
+	padding: 4px;
+	font-weight: bold;
+	color: white;
+	font-size: 17px;
+	width: 200px;
+	text-align: center;
+	z-index: 1;
+	height: 65px;
+	text-decoration: underline;
 }
 
 .kiri {
