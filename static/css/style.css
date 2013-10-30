@@ -66,24 +66,24 @@ a:active {
 	color: white;
 }
 
-li.sexybutton:hover {
+a.sexybutton:hover {
 	border: 1px solid #B8B8B8;
 	border-bottom: 4px solid #B8B8B8;
 }
 
-li.sexybutton:active {
+a.sexybutton:active {
 	background: black; color: white;
 	border-bottom: 4px solid white;
 
 }
 
-li.sexybutton {
+a.sexybutton {
 	color: black;
 	border: 1px solid white;
 	padding: 5px 10px;
 	border-radius: 6px;
 	background: white;
-	
+	text-decoration: none;	
 	display: inline;
 	text-align: center;
 	font-weight: bold;
