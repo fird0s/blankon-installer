@@ -193,13 +193,14 @@ button.partition_choice {
 	width: 310px;
 	border: 3px solid black;
 	position: absolute;
-	margin-top: -1,5px;
+	margin-top: 0.9px;	
 	}
 
 button.partition_kosong {
-	height:  65px;
+	height:  66x;
 	background: white;
 	border: 3px dotted black;
+	margin-top: -0.9px;
 }
 
 input.partition_choice {
